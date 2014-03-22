@@ -3,15 +3,15 @@
  *
  *       Filename:  string-util.h
  *
- *    Description:  
+ *    Description: 	console print util
  *
  *        Version:  1.0
- *        Created:  2014年03月21日 23时46分32秒
+ *        Created:  2010年02月20日 23时46分32秒
  *       Revision:  none
  *       Compiler:  gcc
  *
- *         Author:  孙永健 (Ivan Sun), 912191009@qq.com
- *   Organization:  China
+ *         Author:  elloop, elloop@foxmail.com
+ *   Organization:  China 
  *
  * =====================================================================================
  */
