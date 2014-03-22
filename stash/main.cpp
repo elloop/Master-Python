@@ -4,30 +4,29 @@
 #include "stash.h"
 #include "string-util.h"
 using namespace std;
-int main ( int argc, char *argv[] )
-{
+int main ( int argc, char * argv[] ) {
 	// define a stack
 	Stash stack;
 
-	ifstream input("input", ios::in);
+	ifstream input ( "input", ios::in );
 	if ( !input ) {
-		pln("fail to open input file");
+		pln ( "fail to open input file" );
 	}
 
 	// read string from file & save it in the stack
-	string line("");
-	while (getline(input, line)) {
-		stack.push(new string(line));
+	string line ( "" );
+	while ( getline ( input, line ) ) {
+		stack.push ( new string ( line ) );
 	}
 	input.close();
 
-	// print string and clean up 
+	// print string and clean up
 	string * pstr = 0;
-	while ((pstr = (string*)stack.pop()) != 0) {
-		ps(*pstr);
+	while ( ( pstr = ( string * ) stack.pop() ) != 0 ) {
+		ps ( *pstr );
 		delete pstr;
 	}
 	stack.cleanup();
 
 	return 0;
-}	
+}
