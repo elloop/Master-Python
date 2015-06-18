@@ -1,5 +1,6 @@
-Master Python
+#Master Python
 ---
+
 # Learning Python
 - Practice Codes from "Learning Python(4th Edition)"
 - Practice Codes from "91-Items for Pythonic Codes"
@@ -7,7 +8,6 @@ Master Python
 # Using Python
 ## Useful tools in daily life.
 - Diary Generator.
-- 
 
 ## Convenient tools for programming.
 - Cocos2d-x project creator.
